@@ -3,74 +3,36 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Virtual environment
 venv/
+.venv/
 env/
 ENV/
-.venv/
-.ENV/
 env.bak/
 
+# Environment variables
+.env
+*.env
+
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# VS Code settings
+# VS Code & PyCharm
 .vscode/
-
-# PyCharm settings
 .idea/
 
-# macOS & Linux
+# macOS & Windows system files
 .DS_Store
-
-# Windows
 Thumbs.db
-ehthumbs.db
-desktop.ini
 
-# Python environment files
-*.env
-*.venv
-.env.*
-venv.bak/
-
-# pip dependency files
-pip-log.txt
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.cache
-.pytest_cache/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# Logs
+# Logs, test coverage, and caches
 *.log
-
-# mypy
+*.coverage
+.cache/
+.pytest_cache/
 .mypy_cache/
 
-# Bandit
-.bandit/
-
-# Local SQLite DBs
-*.sqlite3
-*.db
-
-# Generated files
-*.egg
-*.egg-info/
+# Build & distribution
 dist/
 build/
+*.egg-info/
