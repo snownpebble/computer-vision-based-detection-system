@@ -36,3 +36,6 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+
+venv/
+pothole-detection-app/venv/
