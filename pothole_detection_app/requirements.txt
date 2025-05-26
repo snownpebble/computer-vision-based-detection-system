@@ -1,1 +1,12 @@
 # Placeholder for requirements.txt
+plotly
+streamlit
+torch
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow
+twilio
+ultralytics
