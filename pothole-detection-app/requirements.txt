@@ -7,3 +7,4 @@ psycopg2-binary==2.9.6
 sqlalchemy==2.0.9
 streamlit==1.22.0
 twilio==8.1.0
+opencv-python
